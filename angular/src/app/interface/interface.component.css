@@ -1,0 +1,66 @@
+.tacbox {
+  display:block;
+  padding: 1em;
+  margin: 2em;
+  border: 3px solid #ddd;
+  background-color: #eee;
+  max-width: 800px;
+}
+
+input {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
+
+.login {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(40deg,rgb(28, 72, 138), rgb(42, 112, 216));
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform .2s ease-out;
+}
+
+.login:hover{
+  transform: scale(1.02);
+}
+
+.login a{
+  color: white;
+}
+
+.signup {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(40deg,rgb(28, 72, 138), rgb(42, 112, 216));
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform .2s ease-out;
+}
+
+.signup:hover{
+  transform: scale(1.02);
+}
+
+.signup a{
+  color: white;
+}
